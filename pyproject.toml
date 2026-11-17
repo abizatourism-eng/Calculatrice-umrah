@@ -1,0 +1,17 @@
+[project]
+name = "umrah-calculator"
+version = "1.0.0"
+description = "حاسبة العمرة المتكاملة"
+requires-python = ">=3.10"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+product = "حاسبة العمرة"
+company = "Umrah"
+copyright = "Umrah Calculator"
+
+[tool.flet.app]
+path = "."
+
+[tool.flet.android]
+split_per_abi = false
